@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpInterceptor, HttpEvent, HttpErrorResponse, HTTP_INTERCEPTORS, HttpHandler, HttpRequest } from '@angular/common/http';
 import { catchError } from 'rxjs/operators';
 import { throwError, Observable } from 'rxjs';
-import { stat } from 'fs';
 
 @Injectable({
   providedIn: 'root'
