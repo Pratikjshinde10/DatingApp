@@ -10,7 +10,7 @@
 
     <div class="row">
       <form class="form-inline" #form="ngForm" (ngSubmit)="loadUsers()" novalidate>
-        <div class="form-group">
+        <div class="form-group" style="margin-left: 150px">
           <label for="minAge">Age From</label>
           <input type="number" class="form-control" style="width: 70px"
           [(ngModel)]="userParams.minAge" id="minAge" name="minAge">
